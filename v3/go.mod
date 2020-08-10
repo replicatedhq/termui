@@ -1,4 +1,4 @@
-module github.com/gizak/termui/v3
+module github.com/replicatedhq/termui/v3
 
 require (
 	github.com/mattn/go-runewidth v0.0.2
