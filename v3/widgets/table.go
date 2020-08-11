@@ -102,10 +102,6 @@ func (self *Table) Draw(buf *Buffer) {
 			rowStyle = style
 		}
 
-		if i == self.SelectedRow {
-			rowStyle = self.SelectedRowStyle
-		}
-
 		if self.FillRow {
 			blankCell := NewCell(' ', rowStyle)
 			buf.Fill(blankCell, image.Rect(self.Inner.Min.X, yCoordinate, self.Inner.Max.X, yCoordinate+1))
